@@ -1,0 +1,27 @@
+[project]
+name = "pathint_torch"
+version = "0.0.1"
+authors = [{name = "Adam Coogan", email = "dr.adam.coogan@gmail.com"}]
+description = "PyTorch implementation of the Path Integral Sampler."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = []
+dependencies = ["torch", "torchsde", "torchtyping", "torchvision"]
+
+[project.urls]
+homepage = "https://github.com/adam-coogan/pathint-torch"
+repository = "https://github.com/adam-coogan/pathint-torch"
+documentation = "https://pathint-torch.readthedocs.io/en/latest/"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
