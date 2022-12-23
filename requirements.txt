@@ -1,4 +1,4 @@
-torch==2.0.0.dev20221222
+torch==1.13.1
 torchsde==0.2.5
 torchtyping==0.1.4
-torchvision==0.15.0.dev20221222
+torchvision==0.14.1
